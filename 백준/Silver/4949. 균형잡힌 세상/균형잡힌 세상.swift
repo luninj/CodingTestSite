@@ -29,7 +29,7 @@ while true {
             }
         }
         
-        for _ in 0...stack.count {
+        for _ in 0...stack.count/2 {
             stack = stack.description.replacingOccurrences(of: "()", with: "")
             stack = stack.description.replacingOccurrences(of: "[]", with: "")
         }
