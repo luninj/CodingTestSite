@@ -1,8 +1,6 @@
-import Foundation
-
 var N = Int(readLine()!)!
 
-var array : [Int] = Array(repeating: 0, count: 100001)
+var array : [Int] = Array(repeating: 0, count: N+1)
 
 for i in 1...N {
     array[i] = i
